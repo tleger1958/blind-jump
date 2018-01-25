@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.2
+Name=Blind Jump
+Comment=Blind Jump is a procedurally generated space action game.
+Exec=/usr/bin/blindjump
+Path=/usr/bin/
+Icon=/usr/share/blindjump/icon.png
+Terminal=false
+Type=Application

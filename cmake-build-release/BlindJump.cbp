@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BlindJump"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-release\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlindJump">
+				<Option output="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/cmake-build-release/BlindJump" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBLINDJUMP_LINUX"/>
+					<Add directory="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/deps/JSON"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 BlindJump"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlindJump/fast">
+				<Option output="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/cmake-build-release/BlindJump" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBLINDJUMP_LINUX"/>
+					<Add directory="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/deps/JSON"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 BlindJump/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/Documents/Documents/Programmation/Blind\ Jump/blind-jump-development/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/Game.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/Game.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/Game_updateGraphics.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/Game_updateLogic.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/ResourcePath.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/ResourcePath.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/aStar.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/aStar.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/backgroundHandler.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/backgroundHandler.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/camera.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/camera.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/critter.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/critter.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/dasher.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/dasher.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/drawPixels.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/drawPixels.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/enemy.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/enemy.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/enemyController.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/enemyController.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/enemyPlacementFn.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/enemyPlacementFn.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/framework/framework.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/framework/framework.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/initMapVectors.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/initMapVectors.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/inputController.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/inputController.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/main.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/mappingFunctions.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/mappingFunctions.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/player.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/player.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/resourceHandler.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/resourceHandler.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/rng.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/rng.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/scoot.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/scoot.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/shutdownSignal.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/shutdownSignal.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/soundController.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/soundController.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/tileController.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/tileController.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/turret.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/turret.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/userInterface.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/userInterface.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/util.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/util.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/wall.cpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/src/wall.hpp">
+			<Option target="BlindJump"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/cmake-build-debug/config.h.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/media/Documents/Documents/Programmation/Blind Jump/blind-jump-development/cmake-build-release/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-release\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
